@@ -106,7 +106,10 @@ input, select {
 
 /* CODEEE STARTS HEREEEE */
 
- 
+ @font-face{
+  font-family:vs;
+  src: url('fonts/VeniceSerif-Regular.otf');
+ }
 
  body  {
 
@@ -169,7 +172,7 @@ img:hover {
     margin-top: -50px;
     margin-left: -150px;
     
-    font-family: "Venice Serif", "Times New Roman";
+    font-family: vs, "Times New Roman";
     color: #c0c0c0;
     letter-spacing: 42px;
     font-size: 48px;
@@ -182,7 +185,7 @@ img:hover {
     margin-top: -50px;
     margin-left: -150px;
     
-    font-family: "Venice Serif", "Times New Roman";
+    font-family: vs, "Times New Roman";
     color: #c0c0c0;
     letter-spacing: 42px;
     font-size: 48px;
