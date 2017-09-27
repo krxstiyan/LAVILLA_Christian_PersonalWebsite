@@ -108,8 +108,17 @@ input, select {
 
  
 @font-face{
+  font-family:am;
+  src: url('../fonts/Amaranth-Regular.otf');
+ }
+
+ @font-face{
   font-family:vs;
   src: url('../fonts/VeniceSerif-Regular.otf');
+ }
+  @font-face{
+  font-family:mw;
+  src: url('../fonts/Merriweather-Regular.otf');
  }
 
  body {
@@ -126,10 +135,11 @@ input, select {
     padding: 15px; /* 15px padding */
     width: 110px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
-    font-family: vs;
-    font-size: 20px; /* Increase font size */
+    font-family: mw;
+    font-size: 16px; /* Increase font size */
     color: white; /* White text color */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+
 }
 
 #mySidenav a:hover {
