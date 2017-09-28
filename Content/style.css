@@ -124,14 +124,15 @@ input, select {
  body{
   background: #f3f3f3;
   min-height: 3000px;
-  padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
 .container{
   width: 80%;
-  margin: 0 auto;
+  margin-top: 0 px;
+  margin-left: auto;
+  margin-right: auto;
   clear: both;
 }
   
@@ -163,19 +164,23 @@ nav{
       display: inline-block;
       margin: 0 10px;
     }
+
     a{
         color: #f5f5f5;
         font-size: 14px;
         padding-top: 45px;
+        outline: 0;
     }
 
   a#name{
    
+    color: #c0c0c0;
     margin-top: -15px;
     font-family: vs;
     float: left;
     font-size: 40px;
     letter-spacing: 14px;
+    font-weight: 800px;
     }
 
   button{
@@ -198,6 +203,24 @@ nav{
     display: block;
     margin: 5px 0;
       }
-    
+
+
+.section{
+    padding-top: 200px;
+}
+
+}
+.section {
+    position: relative;
+}
+.section:target {
+    padding-top: 120px;
+}
+
+    #PI{
+        color: black;
+    }
+
+   
 
 
