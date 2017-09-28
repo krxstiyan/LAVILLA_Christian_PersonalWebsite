@@ -129,6 +129,12 @@ input, select {
  }
 
 
- 
+ .NavBar {
+
+    background-color: #1d1d1d;
+    overflow: hidden;
+    height: 150px;
+
+ }
 
 
