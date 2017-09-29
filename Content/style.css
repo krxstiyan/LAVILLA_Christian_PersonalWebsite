@@ -134,7 +134,7 @@ input, select {
 
 
  body{
-  background: #f3f3f3;
+  background: #F5F5F5;
   min-height: 3000px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -153,8 +153,16 @@ input, select {
 }
 
 .content{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #F5F5F5;
+  min-height: 3000px;
+}
+
+#profile{
+
+  padding-left: 20px;
+  
 }
 
 a{
@@ -230,8 +238,18 @@ nav{
     background: #333;
     display: block;
     margin: 5px 0;
+    
       }
 
+a#name:hover{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+ul.navbar-menu:hover{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
 
 .section{
     padding-top: 120px;
