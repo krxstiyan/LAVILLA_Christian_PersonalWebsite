@@ -121,6 +121,18 @@ input, select {
   src: url('../fonts/Merriweather-Regular.otf');
  }
 
+ @keyframes slideInFromLeft {
+
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
  body{
   background: #f3f3f3;
   min-height: 3000px;
@@ -139,7 +151,12 @@ input, select {
   margin-right: auto;
   clear: both;
 }
-  
+
+.content{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 a{
   display: inline-block;
   color: #f3f3f3;
@@ -155,6 +172,11 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
+ animation-duration: .5s; 
+ animation-timing-function: ease-out; 
+ animation-delay: 0s; 
+ animation-iteration-count: 1; 
+ animation-name: slideInFromLeft; 
   }
   
   ul.navbar-menu{
@@ -162,6 +184,7 @@ nav{
     padding: 0;
     display: inline-block;
     float: right;
+
     }
 
    li{
@@ -179,10 +202,10 @@ nav{
   a#name{
    
     color: #c0c0c0;
-    margin-top: -15px;
+    margin-top: -18px;
     font-family: vs;
     float: left;
-    font-size: 40px;
+    font-size: 48px;
     letter-spacing: 14px;
     font-weight: 800px;
     }
@@ -197,6 +220,7 @@ nav{
     display: inline-block;
     cursor: pointer;
     display: none;
+
     }
 
     span{
@@ -221,11 +245,11 @@ nav{
     padding-top: 120px;
 }
 
-    #PI{
-        color: black;
+#PI{
+    color: black;
     }
 
-   @keyframes fadein {
+@keyframes fadein {
     from {
         opacity:0;
     }
@@ -255,6 +279,12 @@ nav{
     }
     to {
         opacity: 1;
+    }   
+
+
+
+    html {
+        background-color: black;
     }
 
 
