@@ -161,16 +161,26 @@ input, select {
 
 #profile{
 
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 60px;
   box-shadow: 1px 1px 2px white, 0 0 15px gray, 0 0 3px silver;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; 
+  -webkit-animation: fadein 3s; 
+  -o-animation: fadein 3s; 
 }
 
 #motto{
-  margin-top: 30px;
-  margin-left: 105px;
+  margin-top: 20px;
+  margin-left: 85px;
   color: white;
   font-style: italic;
+  font-family: mw;
+  font-weight: 50px;
+  animation: fadein 6s;
+  -moz-animation: fadein 6s; 
+  -webkit-animation: fadein 6s; 
+  -o-animation: fadein 6s; 
 }
 
 a{
@@ -274,6 +284,23 @@ ul.navbar-menu:hover{
 #PI{
     color: black;
     }
+
+#details{
+  max-height: 1000px;
+  float: top;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#intro{
+
+  margin-top: -380px;
+  margin-left: 550px;
+  padding-top: -150px;
+  font-family: am;
+  font-size: 60px;
+  color:#E8E8E8;
+}
 
 @keyframes fadein {
     from {
