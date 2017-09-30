@@ -121,6 +121,11 @@ input, select {
   src: url('../fonts/Merriweather-Regular.otf');
  }
 
+@font-face{
+  font-family:ma;
+  src: url('../fonts/MontserratAlternates-Regular.otf');
+ }
+
  @keyframes slideInFromLeft {
 
   0% {
@@ -254,7 +259,7 @@ a#name:hover{
 }
 
 li:hover{
-  color: white;
+  color: black;
   text-shadow: 2px 2px 4px silver;
 }
 
@@ -306,6 +311,12 @@ li:hover{
   color: #E8E8E8;
 }
 
+#potato:hover {
+
+  text-shadow: 1px 1px 20px gold;
+
+}
+
 /*infos */
 
 #border{
@@ -319,12 +330,44 @@ li:hover{
 #infotitle {
   padding-top: 10px;
   padding-left: 450px;
-  font-family: am;
-  font-size: 42px;
+  font-family: ma;
+  font-size: 28px;
   color: #f8f8f8;
   letter-spacing: 3px;
 
 }
+
+#myName {
+
+  padding-top: 180px;
+  font-family: am;
+  font-size: 58px;
+  letter-spacing: 3px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes fadein {
     from {
