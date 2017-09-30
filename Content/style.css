@@ -131,17 +131,15 @@ input, select {
   }
 }
 
-
-
  body{
   background: #282828;
   min-height: 3000px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; 
-  -webkit-animation: fadein 2s; 
-  -o-animation: fadein 2s; 
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
+  -o-animation: fadein 1s; 
 }
 
 .container{
@@ -161,27 +159,15 @@ input, select {
 
 #profile{
 
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 60px;
   box-shadow: 1px 1px 2px white, 0 0 15px gray, 0 0 3px silver;
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; 
-  -webkit-animation: fadein 3s; 
-  -o-animation: fadein 3s; 
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
+  -o-animation: fadein 1s; 
 }
 
-#motto{
-  margin-top: 20px;
-  margin-left: 85px;
-  color: white;
-  font-style: italic;
-  font-family: mw;
-  font-weight: 50px;
-  animation: fadein 6s;
-  -moz-animation: fadein 6s; 
-  -webkit-animation: fadein 6s; 
-  -o-animation: fadein 6s; 
-}
 
 a{
   display: inline-block;
@@ -260,6 +246,7 @@ nav{
       }
 
 a#name:hover{
+
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -281,25 +268,36 @@ ul.navbar-menu:hover{
     padding-top: 120px;
 }
 
-#PI{
+
+
+
+#home{
     color: black;
+    margin-bottom: 120px;
     }
 
-#details{
+#front{
   max-height: 1000px;
-  float: top;
+  float: right;
   margin-top: 0px;
   margin-left: 0px;
 }
 
-#intro{
+/*get to know me~*/
 
-  margin-top: -400px;
+#intro{
+  margin-top: -230px;
   margin-left: 530px;
   padding-top: -150px;
   font-family: am;
   font-size: 80px;
   color:#E8E8E8;
+}
+
+#potato{
+  margin-top: -95px;
+  margin-left: 670px;
+  color: #E8E8E8;
 }
 
 @keyframes fadein {
