@@ -168,12 +168,6 @@ input, select {
   -o-animation: fadein 1s; 
 }
 
-
-a{
-  display: inline-block;
-  color: #f3f3f3;
-  text-decoration: none;
-  }
   
 nav{
   background: #1d1d1d;
@@ -205,10 +199,18 @@ nav{
     }
 
     a{
-        color: #f5f5f5;
-        font-size: 14px;
-        padding-top: 45px;
-        outline: 0;
+
+      display: inline-block;
+      color: #f3f3f3;
+      text-decoration: none;
+  }
+
+    a{
+
+      color: #f5f5f5;
+      font-size: 14px;
+      padding-top: 45px;
+      outline: 0;
     }
 
   a#name{
@@ -251,9 +253,9 @@ a#name:hover{
   text-shadow: 2px 2px 4px #000000;
 }
 
-ul.navbar-menu:hover{
+li:hover{
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px silver;
 }
 
 /* anchors */
@@ -315,10 +317,12 @@ ul.navbar-menu:hover{
 
 
 #infotitle {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-left: 450px;
   font-family: am;
-  font-size: 50px;
-  color: #E8E8E8;
+  font-size: 42px;
+  color: #f8f8f8;
+  letter-spacing: 3px;
 
 }
 
