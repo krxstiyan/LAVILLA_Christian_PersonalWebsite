@@ -421,7 +421,7 @@ li:hover{
 #myCity {
 
   margin-top: -85px;
-  padding-left:40px;
+  padding-left:30px;
   color: #fff940;
 
   font-family: vs;
@@ -457,13 +457,14 @@ li:hover{
 
 #myYear {
 
-  margin-top: -100px;
+  margin-top: -110px;
   padding-left:870px;
   color: #6ff094;
 
   font-family: vs;
-  font-size: 48px;
+  font-size: 38px;
   letter-spacing: 3px;
+  line-height: 30%;
 
 }
 
