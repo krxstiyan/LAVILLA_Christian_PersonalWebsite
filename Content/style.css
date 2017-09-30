@@ -338,14 +338,47 @@ li:hover{
 }
 
 #myName {
-
   padding-top: 170px;
-  padding-left: 320px;
+  padding-left: 250px;
   font-family: am;
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: #66e8d2;
+}
+
+#myReligion {
+
+  margin-top: -105px;
+  padding-left: 150px;
+  color: #e860c8;
+
+  font-family: vs;
+  font-size: 24px;
+  letter-spacing: 3px;
+
+}
+
+#myBday {
+
+  margin-top: 65px;
+  padding-left: 200px;
+  color: #e8885c;
+
+  font-family: vs;
+  font-size: 32px;
+  letter-spacing: 3px;
+
+}
+
+#myAge {
+
+  margin-top: -55px;
+  padding-left: 140px;
+  color: #ffc079;
+
+  font-family: vs;
   font-size: 60px;
   letter-spacing: 3px;
-  color: white;
-
 
 }
 
