@@ -339,10 +339,12 @@ li:hover{
 
 #myName {
 
-  padding-top: 180px;
+  padding-top: 170px;
+  padding-left: 320px;
   font-family: am;
-  font-size: 58px;
+  font-size: 60px;
   letter-spacing: 3px;
+  color: white;
 
 
 }
