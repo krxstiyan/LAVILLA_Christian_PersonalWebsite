@@ -280,6 +280,12 @@ li:hover{
 
 
 /* Home */
+
+#stuf{
+  margin-top: -10px;
+  
+}
+
 #home{
     color: black;
     margin-bottom: 135px;
@@ -503,6 +509,8 @@ li:hover{
   letter-spacing: 3px;
 
 }
+
+
 
 
 
