@@ -688,6 +688,48 @@ li:hover{
   -ms-transform: translate(-50%, -50%);
 }
 
+#dev-container {
+  margin-top: 100px;
+  margin-left: 750px; 
+  position: relative;
+  width: 10.5%;
+}
+
+#dev {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+#dev-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  height: 93px;
+  width: 93px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #3880e6;
+  border-radius: 10%;
+}
+
+#dev-container:hover #dev-overlay {
+  opacity: 1;
+}
+
+#dev-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
