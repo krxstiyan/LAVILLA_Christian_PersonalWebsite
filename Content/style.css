@@ -689,8 +689,8 @@ li:hover{
 }
 
 #dev-container {
-  margin-top: 100px;
-  margin-left: 750px; 
+  margin-top: 95px;
+  margin-left: 748px; 
   position: relative;
   width: 10.5%;
 }
@@ -764,6 +764,50 @@ li:hover{
 }
 
 #jc-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#sb-container {
+  margin-top: -93px;
+  margin-left: 983px; 
+  position: relative;
+  width: 10%;
+}
+
+#sb {
+  display: block;
+  width: 75%;
+  height: auto;
+  border-radius: 10%;
+}
+
+#sb-overlay {
+  position: absolute;
+  top: 3px;
+  bottom: 0px;
+  left: 3px;
+  right: 0;
+  height:91.5px;
+  width:91.5px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #dbca0e;
+  border-radius: 20%;
+}
+
+#sb-container:hover #sb-overlay {
+  opacity: 1;
+}
+
+#sb-text {
   color: white;
   font-family: vs;
   font-size: 24px;
