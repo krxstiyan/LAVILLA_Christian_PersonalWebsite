@@ -820,6 +820,49 @@ li:hover{
 }
 
 
+#xp-container {
+  margin-top: -100px;
+  margin-left: 1100px; 
+  position: relative;
+  width: 10%;
+}
+
+#xp {
+  display: block;
+  width: 80%;
+  height: auto;
+  border-radius: 10%;
+}
+
+#xp-overlay {
+  position: absolute;
+  top: 6px;
+  bottom: 0px;
+  left: 5.5px;
+  right: 0;
+  height:92px;
+  width:93.5px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #10ad01;
+  border-radius: 18%;
+}
+
+#xp-container:hover #xp-overlay {
+  opacity: 1;
+}
+
+#xp-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
