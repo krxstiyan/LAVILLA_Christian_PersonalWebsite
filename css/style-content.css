@@ -173,9 +173,9 @@ input, select {
   -webkit-animation: fadein 1s; 
   -o-animation: fadein 1s; 
   border-width: 20px;
-  animation: border-flicker 3s linear infinite;
-  
+  animation: border-flicker 5s linear infinite
 }
+
 
   
 nav{
@@ -315,7 +315,7 @@ li:hover{
 #potato{
   margin-top: -95px;
   margin-left: 670px;
-  color: #E8E8E8;
+  color: #01f7b9;
 }
 
 
@@ -354,7 +354,7 @@ li:hover{
   font-size: 80px;
   letter-spacing: 3px;
   color: #04fbff;
-  animation: letter-flicker 3s linear infinite;
+  animation: letter-flicker 2s linear infinite;
 }
 
 #myReligion {
@@ -893,9 +893,11 @@ li:hover{
   animation: text-flicker 3s linear infinite;
 }
 
+#vid{
 
-
-
+    padding-top: 50px;
+    padding-left: 270px;
+}
 
 #offset {
   animation: letter-flicker 2s linear infinite;
@@ -925,34 +927,89 @@ li:hover{
   }
   20% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
   25% {
     opacity:0.3;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
   30% {
     opacity:1;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
   
   70% {
     opacity:0.7;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
   
   72% {
     opacity:0.2;
-    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow:0px 0px 29px rgba(242, 22, 22, 1);
   }
   
   77% {
     opacity:.9;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
   }
   100% {
     opacity:.9;
-    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+}
+
+@keyframes text-flickerInt {
+  0% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  8% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  9% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  12% {
+    opacity:1;
+    text-shadow: 0px 0px #01f7b9;
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  25% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  
+  70% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  
+  72% {
+    opacity:0.1;
+    text-shadow:0px 0px 29px #01f7b9;
+  }
+  
+  77% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #01f7b9;
+  }
+  100% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #01f7b9;
   }
 }
 
