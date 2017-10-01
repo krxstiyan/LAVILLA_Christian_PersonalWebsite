@@ -703,15 +703,15 @@ li:hover{
 
 #dev-overlay {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 3px;
+  bottom: 7px;
+  left: 5px;
   right: 0;
-  height: 93px;
-  width: 93px;
+  height: 90px;
+  width: 87px;
   opacity: 0;
   transition: .3s ease;
-  background-color: #3880e6;
+  background-color: #6046bd;
   border-radius: 10%;
 }
 
@@ -731,6 +731,49 @@ li:hover{
   -ms-transform: translate(-50%, -50%);
 }
 
+#jc-container {
+  margin-top: -93px;
+  margin-left: 870px; 
+  position: relative;
+  width: 10%;
+}
+
+#jc {
+  display: block;
+  width: 68%;
+  height: auto;
+  border-radius: 10%;
+}
+
+#jc-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  height:89px;
+  width:89px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #c22d2f;
+  border-radius: 10%;
+}
+
+#jc-container:hover #jc-overlay {
+  opacity: 1;
+}
+
+#jc-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
