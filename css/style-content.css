@@ -1,4 +1,4 @@
- /* 
+/* 
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
@@ -137,6 +137,7 @@ input, select {
 }
 
  body{
+
   background: #282828;
   min-height: 3000px;
   margin: 0;
@@ -171,6 +172,9 @@ input, select {
   -moz-animation: fadein 1s; 
   -webkit-animation: fadein 1s; 
   -o-animation: fadein 1s; 
+  border-width: 20px;
+  animation: border-flicker 3s linear infinite;
+  
 }
 
   
@@ -286,6 +290,7 @@ li:hover{
 #home{
     color: black;
     margin-bottom: 145px;
+    margin-top: -50px;
   
     }
 
@@ -313,11 +318,9 @@ li:hover{
   color: #E8E8E8;
 }
 
-#potato:hover {
 
-  text-shadow: 1px 1px 20px gold;
 
-}
+
 
 /*infos */
 
@@ -340,6 +343,7 @@ li:hover{
   font-size: 28px;
   color: #f8f8f8;
   letter-spacing: 3px;
+  animation: text-flicker 3s linear infinite;
 
 }
 
@@ -350,6 +354,7 @@ li:hover{
   font-size: 80px;
   letter-spacing: 3px;
   color: #04fbff;
+  animation: letter-flicker 3s linear infinite;
 }
 
 #myReligion {
@@ -503,6 +508,7 @@ li:hover{
   font-size: 28px;
   color: #f8f8f8;
   letter-spacing: 3px;
+  animation: text-flicker 3s linear infinite;
 
 }
 
@@ -868,14 +874,146 @@ li:hover{
 
 
 
+#offset {
+  animation: letter-flicker 2s linear infinite;
+}
 
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px rgba(242, 22, 22, 1);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+}
 
+@keyframes border-flicker {
+  0% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  2% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+     box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  4% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+     box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  
+  8% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+     box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  70% {
+    opacity:0.7;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+     box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  100% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+}
 
-
-
-
-
-
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  
+  
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 29px #f2ff00;
+  }
+}
 
 @keyframes fadein {
     from {
@@ -913,6 +1051,4 @@ li:hover{
 
     html {
         background-color: black;
-    }
-
-
+}
