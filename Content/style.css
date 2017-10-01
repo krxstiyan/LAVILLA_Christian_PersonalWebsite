@@ -512,6 +512,18 @@ li:hover{
   height:auto;
 }
 
+#ps-container {
+  position: relative;
+  width: 50%;
+}
+
+#ps {
+  display: block;
+  width: 20%;
+  height: auto;
+}
+
+
 
 .text {
   color: white;
