@@ -139,7 +139,7 @@ input, select {
  body{
 
   background: #282828;
-  min-height: 3000px;
+  min-height: 3630px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   animation: fadein 1s;
@@ -160,7 +160,6 @@ input, select {
   margin-left: 80px;
   margin-right: 80px;
   background-color: #282828;
-  min-height: 3000px;
 }
 
 #profile{
@@ -173,7 +172,7 @@ input, select {
   -webkit-animation: fadein 1s; 
   -o-animation: fadein 1s; 
   border-width: 20px;
-  animation: border-flicker 5s linear infinite
+  animation: border-flicker 3s linear infinite
 }
 
 
@@ -897,7 +896,7 @@ li:hover{
 
 #vid{
 
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 270px;
     border-width: thick;
 } 
@@ -1224,6 +1223,29 @@ iframe{
     margin: 0;
     padding: 0 0 10px;
     letter-spacing: px;
+}
+
+/*contact */
+
+#contact{
+  margin-top:-230px;
+}
+#contct{
+
+  margin-top: -10px;
+  border-top-style: dashed;
+  border-width: medium;
+  border-color: #5c26c7;
+}
+
+#contacttitle {
+  margin-top: 10px;
+  margin-left: 480px;
+  font-family: ma;
+  font-size: 28px;
+  color: #f8f8f8;
+  letter-spacing: 3px;
+  animation: text-flicker 3s linear infinite;
 }
 
 #offset {
