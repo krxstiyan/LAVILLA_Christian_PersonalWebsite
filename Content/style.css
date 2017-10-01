@@ -527,21 +527,22 @@ li:hover{
 
 #ps {
   display: block;
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
 #ps-overlay {
   position: absolute;
-  top: 14px;
+  top: 0px;
   bottom: 0px;
-  left: 15px;
+  left: 0px;
   right: 0;
-  height: 76px;
-  width: 76px;
+  height: 93px;
+  width: 93px;
   opacity: 0;
   transition: .3s ease;
   background-color: #b55146;
+  border-radius: 20%;
 }
 
 #ps-container:hover #ps-overlay {
@@ -551,7 +552,7 @@ li:hover{
 #ps-text {
   color: white;
   font-family: vs;
-  font-size: 20px;
+  font-size: 24px;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -560,7 +561,7 @@ li:hover{
 }
 
 #ai-container {
-  margin-top: -105px;
+  margin-top: -92px;
   margin-left: 870px; 
   position: relative;
   width: 10%;
@@ -568,21 +569,22 @@ li:hover{
 
 #ai {
   display: block;
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
 #ai-overlay {
   position: absolute;
-  top: 14px;
+  top: 0px;
   bottom: 0px;
-  left: 15px;
+  left: 0px;
   right: 0;
-  height: 76px;
-  width: 76px;
+  height: 93px;
+  width: 93px;
   opacity: 0;
   transition: .3s ease;
-  background-color: #b55146;
+  background-color: #e0c438;
+  border-radius: 20%;
 }
 
 #ai-container:hover #ai-overlay {
@@ -592,10 +594,96 @@ li:hover{
 #ai-text {
   color: white;
   font-family: vs;
-  font-size: 20px;
+  font-size: 24px;
   position: absolute;
   top: 45%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#ae-container {
+  margin-top: -93px;
+  margin-left: 989px; 
+  position: relative;
+  width: 10%;
+}
+
+#ae {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+#ae-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  height: 93px;
+  width: 93px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #c72b00;
+  border-radius: 20%;
+}
+
+#ae-container:hover #ae-overlay {
+  opacity: 1;
+}
+
+#ae-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#id-container {
+  margin-top: -91px;
+  margin-left: 1111px; 
+  position: relative;
+  width: 10%;
+}
+
+#id {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+#id-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0;
+  height: 93px;
+  width: 93px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #3880e6;
+  border-radius: 20%;
+}
+
+#id-container:hover #id-overlay {
+  opacity: 1;
+}
+
+#id-text {
+  color: white;
+  font-family: vs;
+  font-size: 24px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  line-height: 20px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
