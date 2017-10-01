@@ -183,6 +183,7 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   animation-duration: .5s; 
   animation-timing-function: ease-out; 
   animation-delay: 0s; 
@@ -512,24 +513,47 @@ li:hover{
   height:auto;
 }
 
+#block{
+  margin-top: -50px;
+  margin-left: -120px;
+}
+
 #ps-container {
+  margin-top: -400px;
+  margin-left: 750px; 
   position: relative;
-  width: 50%;
+  width: 10%;
 }
 
 #ps {
   display: block;
-  width: 20%;
+  width: 80%;
   height: auto;
 }
 
+#ps-overlay {
+  position: absolute;
+  top: 14px;
+  bottom: 0px;
+  left: 15px;
+  right: 0;
+  height: 76px;
+  width: 76px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #b55146;
+}
 
+#ps-container:hover #ps-overlay {
+  opacity: 1;
+}
 
-.text {
+#ps-text {
   color: white;
+  font-family: vs;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
