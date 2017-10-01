@@ -112,7 +112,7 @@ input, select {
 
  @font-face{
   font-family:vs;
-  src: url('fonts/VeniceSerif-Regular.otf');
+  src: url('../fonts/VeniceSerif-Regular.otf');
  }
 
  body  {
