@@ -281,15 +281,10 @@ li:hover{
 
 /* Home */
 
-#stuf{
-  margin-top: -10px;
-  
-}
 
 #home{
     color: black;
-    margin-bottom: 135px;
-    margin-top: 0px;
+    margin-bottom: 145px;
   
     }
 
@@ -518,6 +513,15 @@ li:hover{
 }
 
 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
